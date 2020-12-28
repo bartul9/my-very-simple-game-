@@ -2,6 +2,7 @@
 
 const btnOne = document.querySelector(".optionOne");
 const btnTwo = document.querySelector(".optionTwo");
+const btnNew = document.querySelector(".newGame");
 let paragraf = document.querySelector(".paragrafOne");
 
 let url = "https://images5.alphacoders.com/102/1022372.jpg";
@@ -19,6 +20,8 @@ let url5 = "https://i.ytimg.com/vi/VFNAJC7H96M/maxresdefault.jpg";
 
 let url6 =
   "https://i1.wp.com/www.toiletovhell.com/wp-content/uploads/2015/04/bloodborne-youdiedlol2.png?ssl=1";
+
+let newimg = "https://i.redd.it/8wk4f2yryqey.jpg";
 
 let div = document.querySelector(".One");
 
@@ -38,7 +41,7 @@ btnOne.addEventListener("click", function () {
     btnTwo.textContent = "Game Over";
     div.style.backgroundImage = `url(${url5})`;
     paragraf.textContent =
-      "You start running and you come to random people, they all look at you strangely and avoid you. You cry for help and finnaly a women comes to you, she gives you her hand, and when you grab her hand she pulls out her gun, and puts a bullet right between your eyebrows.";
+      "You start running and you come to random people, they all look at you strangely and avoid you. You cry for help and finnaly a women comes to you, she gives you her hand, and when you grab her hand she pulls out her gun, and puts a bullet right between your eyebrows. - Refresh page to start again";
   });
 
   btnOne.addEventListener("click", function () {
@@ -49,7 +52,7 @@ btnOne.addEventListener("click", function () {
     div.style.backgroundImage = `url(${url3})`;
     btnOne.addEventListener("click", function () {
       paragraf.textContent =
-        "You got to other phone booth, but on the way there the guys that were looking for you found you, and kill you. You are dead.";
+        "You got to other phone booth, but on the way there the guys that were looking for you found you, and kill you. You are dead. - Refresh page to start again";
       document.body.style.border = "5px solid red";
       btnOne.textContent = "Game Over";
       btnTwo.textContent = "Game Over";
@@ -63,7 +66,7 @@ btnTwo.addEventListener("click", function () {
   paragraf.style.color = "black";
   paragraf.style.fontWeight = "700";
   paragraf.textContent =
-    "You choose to run like a pussy. You even pulled out your knife, but he managed to catch you in the end and kill you with his axe, you are a dead man now, my son.";
+    "You choose to run like a pussy. You even pulled out your knife, but he managed to catch you in the end and kill you with his axe, you are a dead man now, my son. - Refresh page to start again";
   document.body.style.border = "5px solid red";
   btnOne.textContent = "Game Over";
   btnTwo.textContent = "Game Over";
