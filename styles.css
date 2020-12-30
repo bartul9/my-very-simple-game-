@@ -22,6 +22,7 @@ body {
   margin-top: 10vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -32,6 +33,10 @@ button {
   background-color: rgb(2, 0, 150);
   color: white;
   font-size: 15px;
+}
+
+.noneDisplay {
+  display: none;
 }
 
 button:hover {
@@ -80,10 +85,21 @@ button:hover {
 }
 
 .paragrafOne {
-  margin-left: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 32px;
   height: 200px;
   width: 90%;
   color: rgb(255, 255, 255);
-  font-size: 22px;
-  padding: 10px;
+  font-size: 30px;
+  padding: 15px;
+  background: rgb(255, 227, 40);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 65, 40, 0.438) 5%,
+    rgba(168, 120, 0, 0.39) 23%,
+    rgba(23, 133, 8, 0.342) 47%,
+    rgba(3, 18, 3, 0.336) 66%,
+    rgba(0, 0, 0, 0.308) 95%
+  );
 }
